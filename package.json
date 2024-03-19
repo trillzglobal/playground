@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "my-playground",
+  "version": "1.0.0",
+  "description": "Playground for testing",
+  "main": "index.ts",
+  "scripts": {
+    "cvv": "npx tsx src/cvvgen.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "crypto-js": "^4.2.0"
+  }
+}
